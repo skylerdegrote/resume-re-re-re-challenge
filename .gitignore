@@ -1,4 +1,4 @@
 .DS_STORE/
 node_modules/
 .idea/
-raw/
+server/public/styles/images/raw/
