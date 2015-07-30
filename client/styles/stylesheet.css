@@ -48,6 +48,8 @@ blockquote{
     font-size: 40px;
     padding-top: 20px;
     padding-left: 50px;
+    border: none;
+    margin-left:60px;
 }
 
 
@@ -899,7 +901,7 @@ ul li{
     color: rgba(255, 255, 255, .85);
     font-size: 20px;
     text-align: center;
-    margin-left: 70px;
+    margin-left: 60px;
 }
 
 #deans-list{
@@ -918,12 +920,6 @@ ul li{
     overflow: hidden;
     background-color: #221f1f;
     margin-left: 40px;
-}
-
-#deans-list:hover #overlay {
-    opacity: 1;
-}
-#deans-list {
     font-family: Helvetica;
     font-weight: 500;
     color: rgba(255, 255, 255, .85);
@@ -931,13 +927,24 @@ ul li{
     text-align: center;
 }
 
+#deans-list:hover #overlay {
+    opacity: 1;
+}
+/*#deans-list {*/
+    /*font-family: Helvetica;*/
+    /*font-weight: 500;*/
+    /*color: rgba(255, 255, 255, .85);*/
+    /*font-size: 20px;*/
+    /*text-align: center;*/
+/*}*/
+
 .clearfix #book-published{
     margin-left: 250px;
     margin-top: 0;
 }
 #book-published{
     width: 400px;
-    height: 200px;
+    height: 175px;
     box-shadow:  1px 1px 40px 0 rgba(0, 0, 0, .45);
     border-bottom: 1px solid #000;
     border-right: 1px solid #000;
