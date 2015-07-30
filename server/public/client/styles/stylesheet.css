@@ -1,0 +1,1088 @@
+
+
+
+/* CSS Document */
+
+body{
+    padding: 0;
+    margin: 0;
+    border:0;
+    font-size: 100%;
+    font-family: inherit;
+    background-size: 1600px;
+}
+
+.show{
+    display:block;
+}
+header {
+    background-color: #221f1f;
+    height:120px;
+    border-bottom:#C096C5 solid 24px;
+    border-top:#C096C5 solid 24px;
+}
+.top-image{
+    margin-left:20px;
+    position:absolute;
+    height: 150px;
+}
+
+footer {
+    background-color:#c096c5;
+    width:95%;
+    padding: 40px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+footer a{
+    font-size: 24px;
+    color:#706d6d;
+}
+
+
+
+blockquote{
+    color: #be95c3;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+
+
+
+h1{
+    color:#FFFFFF;
+    font-size: 50px;
+    display:inline;
+    padding-left:100px;
+    margin-bottom:200px;
+}
+h2{
+    font-size: 40px;
+    color:white;
+    text-decoration: underline;
+    padding-top:50px;
+    padding-left: 50px;
+    text-align: center;
+
+}
+
+h3{
+    padding-left: 0;
+    color:white;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+p{
+    font-size: 14px;
+    color: #b395c3;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+body {
+    background-color: #221f1f;
+}
+
+main{
+    padding-left: 30px;
+    margin: 0;
+    background-color: #221f1f;
+    width:950px;
+    float: left;
+}
+
+aside{
+    padding-top: 20px;
+    padding-bottom: 170px;
+    float: right;
+    width:300px;
+    height: auto;
+    border-left: 4px solid #be95c3;
+}
+ul li{
+    list-style:none;
+}
+
+
+
+
+#download{
+    position: absolute;
+    display: inline;
+    margin-left:1150px;
+    margin-top:70px;
+}
+
+
+
+
+#linkedin{
+    position: absolute;
+    display: inline;
+    margin-left:750px;
+    margin-top:75px;
+}
+#linkedin a img{
+    width: 55px;
+}
+
+
+#twitter{
+    position: absolute;
+    display: inline;
+    margin-left:850px;
+    margin-top:75px;
+}
+#twitter a img{
+    width: 55px;
+}
+
+#email{
+    position: absolute;
+    display: inline;
+    margin-left:950px;
+    margin-top:80px;
+}
+
+#email a img{
+    width: 65px;
+}
+
+#phone{
+    position: absolute;
+    display: inline;
+    margin-left:1050px;
+    margin-top:73px;
+}
+#phone img{
+    width: 55px;
+}
+
+#linkedin-f{
+    display: inline;
+    padding-left:230px;
+}
+#linkedin-f a{
+    color: black;
+    font-weight:bolder;
+    font-size: 18px;
+}
+
+#twitter-f{
+    display: inline;
+    padding-left:230px;
+}
+#twitter-f a{
+    color: black;
+    font-weight:bolder;
+    font-size: 18px;
+}
+#email-f{
+    display: inline;
+    padding-left:230px;
+}
+#email-f a{
+    color: black;
+    font-weight:bolder;
+    font-size: 18px;
+}
+
+
+
+
+
+/*work experience section of css*/
+
+.work-experience h2{
+
+    text-align: center;
+}
+
+/*lifetouch boxes*/
+#work-lifetouch {
+    width: 250px;
+    height: 170px;
+    box-shadow:  1px 1px 40px 0 rgba(0, 0, 0, .45);
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    margin: 25px 20px 25px 20px;
+    float:left;
+    display: inline;
+    background: url(images/workexperience/Lifetouch-Logo-1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #221f1f;
+}
+#overlay {
+    background: rgba(0, 0, 0, .75);
+    text-align: center;
+    padding: 45px 0 66px 0;
+    opacity: 0;
+    transition: opacity .25s ease;
+}
+#work-lifetouch:hover #overlay {
+    opacity: 1;
+}
+#lifetouch {
+    font-family: Helvetica;
+    font-weight: 500;
+    color: rgba(255, 255, 255, .85);
+    font-size: 20px;
+    text-align: center;
+}
+/*benihana boxes*/
+#work-benihana {
+    width: 250px;
+    height: 170px;
+    box-shadow:  1px 1px 40px 0 rgba(0, 0, 0, .45);
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    margin: 25px 20px 25px 95px;
+    float:left;
+    display: inline;
+    background: url(images/workexperience/benihana_logo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #221f1f;
+}
+#work-benihana:hover #overlay {
+    opacity: 1;
+}
+#benihana {
+    font-family: Helvetica;
+    font-weight: 500;
+    color: rgba(255, 255, 255, .85);
+    font-size: 20px;
+    text-align: center;
+}
+/*rockybits box*/
+#work-rocky {
+    width: 250px;
+    height: 170px;
+    box-shadow:  1px 1px 40px 0 rgba(0, 0, 0, .45);
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    margin: 25px 20px 25px 95px;
+    float:left;
+    display: inline;
+    background: url(images/workexperience/rockybits.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #221f1f;
+}
+#work-rocky:hover #overlay {
+    opacity: 1;
+}
+#rocky {
+    font-family: Helvetica;
+    font-weight: 500;
+    color: rgba(255, 255, 255, .85);
+    font-size: 20px;
+    text-align: center;
+}
+/*msum box*/
+#work-msum {
+    width: 250px;
+    height: 170px;
+    box-shadow:  1px 1px 40px 0 rgba(0, 0, 0, .45);
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    margin: 25px 20px 25px 20px;
+    float:left;
+    display: inline;
+    background: url(images/workexperience/dragon_logo-wordsright.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #221f1f;
+}
+#work-msum:hover #overlay {
+    opacity: 1;
+}
+#msum {
+    font-family: Helvetica;
+    font-weight: 500;
+    color: rgba(255, 255, 255, .85);
+    font-size: 20px;
+    text-align: center;
+}
+/*ata box*/
+#work-ata {
+    width: 250px;
+    height: 170px;
+    box-shadow:  1px 1px 40px 0 rgba(0, 0, 0, .45);
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    margin: 25px 20px 25px 20px;
+    float:left;
+    display: inline;
+    background: url(images/workexperience/ata_logo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #221f1f;
+}
+#work-ata:hover #overlay {
+    opacity: 1;
+}
+#ata {
+    font-family: Helvetica;
+    font-weight: 500;
+    color: rgba(255, 255, 255, .85);
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+/*education section of css*/
+
+
+
+.education h2{
+    margin: 0;
+}
+/*prime box*/
+#prime-education{
+    width: 400px;
+    height: 240px;
+    box-shadow:  1px 1px 40px 0 rgba(0, 0, 0, .45);
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    margin: 25px 10px 25px 80px;
+    float:left;
+    display: inline;
+    background: url(images/education/prime-logo.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #221f1f;
+}
+
+#prime-education:hover #overlay-education {
+    opacity: 1;
+}
+#prime-education {
+    font-family: Helvetica;
+    font-weight: 500;
+    color: rgba(255, 255, 255, .85);
+    font-size: 20px;
+    text-align: center;
+}
+#overlay-education {
+    background: rgba(0, 0, 0, .75);
+    text-align: center;
+    padding: 45px 0 110px 20px;
+    opacity: 0;
+    transition: opacity .25s ease;
+}
+
+/*msum education box*/
+#msum-education{
+    width: 400px;
+    height: 240px;
+    box-shadow:  1px 1px 40px 0 rgba(0, 0, 0, .45);
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    margin: 25px 10px 25px 10px;
+    float:left;
+    display: inline;
+    background: url(images/education/msum-education.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #221f1f;
+    margin-left: 40px;
+}
+
+#msum-education:hover #overlay-education {
+    opacity: 1;
+}
+#msum-education {
+    font-family: Helvetica;
+    font-weight: 500;
+    color: rgba(255, 255, 255, .85);
+    font-size: 20px;
+    text-align: center;
+}
+
+.skills{
+    background-color: #221f1f;
+    height:1900px;
+    padding-left: 50px;
+    padding-right:100px;
+    padding-left:30px;
+}
+.skills h2{
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+
+
+#illustrator, #indesign, #photoshop, #dreamweaver, #colortheory, #bootstrap, #acrobat, #typography, #layout, #wordpress, #aftereffects, #htmlcss, #muse, #javascript, #interface, #userexperience {
+    width: 200px;
+    height: 200px;
+    box-shadow:  1px 1px 40px 0 rgba(0, 0, 0, .45);
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    margin: 40px 20px 25px 20px;
+    float:left;
+    border-radius: 5px;
+    overflow: visible;
+    background-color: #221f1f;
+    border-radius: 50%;
+    display:inline;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    position: relative;
+}
+
+
+
+/*indesign circle*/
+#indesign{
+    background-image: url(images/software_knowledge/software_knowledge_indesign.png)
+}
+
+#indesign:hover {
+    background: url(images/software_knowledge/software_knowledge_advanced.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+/*illustrator circle*/
+#illustrator{
+    background-image: url(images/software_knowledge/software_knowledge_illustrator.png)
+}
+
+#illustrator:hover {
+    background: url(images/software_knowledge/software_knowledge_intermediate.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+/*photoshop circle*/
+#photoshop{
+    background-image: url(images/software_knowledge/software_knowledge_photoshop.png)
+}
+
+#photoshop:hover {
+    background: url(images/software_knowledge/software_knowledge_Basic.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+/*dreamweaver circle*/
+#dreamweaver{
+    background-image: url(images/software_knowledge/software_knowledge_dreamweaver.png)
+}
+
+#dreamweaver:hover {
+    background: url(images/software_knowledge/software_knowledge_intermediate.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+/*color theory circle*/
+#colortheory{
+    background-image: url(images/software_knowledge/software_knowledge_colortheory.png)
+}
+
+#colortheory:hover {
+    background: url(images/software_knowledge/software_knowledge_intermediate.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+
+/*acrobat professional circle*/
+#acrobat{
+    background-image: url(images/software_knowledge/software_knowledge_acrobat.png)
+}
+
+#acrobat:hover {
+    background: url(images/software_knowledge/software_knowledge_intermediate.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+/*bootstrap circle*/
+#bootstrap{
+    background-image: url(images/software_knowledge/software_knowledge_bootstrap.png)
+}
+
+#bootstrap:hover {
+    background: url(images/software_knowledge/software_knowledge_Basic.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+/*typography circle*/
+#typography{
+    background-image: url(images/software_knowledge/software_knowledge_typography.png)
+}
+
+#typography:hover {
+    background: url(images/software_knowledge/software_knowledge_advanced.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+/*layout circle*/
+#layout{
+    background-image: url(images/software_knowledge/software_knowledge_layout.png)
+}
+
+#layout:hover {
+    background: url(images/software_knowledge/software_knowledge_advanced.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+/*wordpress circle*/
+#wordpress{
+    background-image: url(images/software_knowledge/software_knowledge_wordpress.png)
+}
+
+#wordpress:hover {
+    background: url(images/software_knowledge/software_knowledge_intermediate.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+/*after effects circle*/
+#aftereffects{
+    background-image: url(images/software_knowledge/software_knowledge_aftereffects.png)
+}
+
+#aftereffects:hover {
+    background: url(images/software_knowledge/software_knowledge_Basic.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+
+/*html and css circle*/
+#htmlcss{
+    background-image: url(images/software_knowledge/software_knowledge_html_css.png)
+}
+
+#htmlcss:hover {
+    background: url(images/software_knowledge/software_knowledge_Basic.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+/*muse circle*/
+#muse{
+    background-image: url(images/software_knowledge/software_knowledge_muse.png)
+}
+
+#muse:hover {
+    background: url(images/software_knowledge/software_knowledge_intermediate.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+/*javascript circle*/
+#javascript{
+    background-image: url(images/software_knowledge/software_knowledge_javascript.png)
+}
+
+#javascript:hover {
+    background: url(images/software_knowledge/software_knowledge_Basic.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+
+/*interface design circle*/
+#interface{
+    background-image: url(images/software_knowledge/software_knowledge_interface.png)
+}
+
+#interface:hover {
+    background: url(images/software_knowledge/software_knowledge_intermediate.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+/*user experience design circle*/
+#userexperience{
+    background-image: url(images/software_knowledge/software_knowledge_user_experience.png)
+}
+
+#userexperience:hover {
+    background: url(images/software_knowledge/software_knowledge_intermediate.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+/*SPECIALTIES SECTION*/
+#logo {
+    width: 130px;
+    height: 130px;
+    margin: 25px 0 25px 0;
+    float:left;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #221f1f;
+    display: inline;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(images/specialties/specialties_logodesign.png);
+}
+/*user experience design circle*/
+
+
+#logo:hover {
+    background: url(images/specialties/specialties_logodesign%20hover.png);
+    margin: 25px 0 25px 0;
+    float:left;
+    border-radius: 5px;
+    width: 230px;
+    height: 130px;
+    overflow: hidden;
+    background-color: #221f1f;
+    display: inline;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#branding {
+    width: 130px;
+    height: 130px;
+    margin: 25px 0 25px 0;
+    float:left;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #221f1f;
+    display: inline;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(images/specialties/specialties_branding.png);
+}
+/*user experience design circle*/
+
+
+#branding:hover {
+    background: url(images/specialties/specialties_branding%20hover.png);
+    margin: 25px 0 25px 0;
+    float:left;
+    border-radius: 5px;
+    width: 230px;
+    height: 130px;
+    overflow: hidden;
+    background-color: #221f1f;
+    display: inline;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#website {
+    width: 130px;
+    height: 130px;
+    margin: 25px 0 25px 0;
+    float:left;
+    border-radius: 5px;
+    overflow: visible;
+    background-color: #221f1f;
+    display: inline;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(images/specialties/specialties_webdesign.png);
+}
+/*user experience design circle*/
+
+
+#website:hover {
+    background: url(images/specialties/specialties_webdesign%20hover.png);
+    margin: 25px 0 25px 0;
+    float:left;
+    border-radius: 5px;
+    width: 230px;
+    height: 130px;
+    overflow: hidden;
+    background-color: #221f1f;
+    display: inline;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#advertising {
+    width: 130px;
+    height: 130px;
+    margin: 25px 0 25px 0;
+    float:left;
+    border-radius: 5px;
+    overflow: visible;
+    background-color: #221f1f;
+    display: inline;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(images/specialties/specialties_advertising.png);
+}
+/*user experience design circle*/
+
+
+#advertising:hover {
+    background: url(images/specialties/specialties_advertising%20hover.png);
+    margin: 25px 0 25px 0;
+    float:left;
+    border-radius: 5px;
+    width: 230px;
+    height: 130px;
+    overflow: hidden;
+    background-color: #221f1f;
+    display: inline;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+#startup {
+    width: 130px;
+    height: 130px;
+    margin: 25px 0 25px 0;
+    float:left;
+    border-radius: 5px;
+    overflow: visible;
+    background-color: #221f1f;
+    display: inline;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(images/specialties/specialties_startup.png);
+}
+/*user experience design circle*/
+
+
+#startup:hover {
+    background: url(images/specialties/specialties_startup%20hover.png);
+    margin: 25px 0 25px 0;
+    float:left;
+    border-radius: 5px;
+    width: 230px;
+    height: 130px;
+    overflow: visible;
+    background-color: #221f1f;
+    display: inline;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+#illustrations {
+    width: 130px;
+    height: 130px;
+    margin: 25px 0 25px 0;
+    float:left;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #221f1f;
+    display: inline;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(images/specialties/specialties_illustrations.png);
+}
+/*user experience design circle*/
+
+
+#illustrations:hover {
+    background: url(images/specialties/specialties_illustrations%20hover.png);
+    margin: 25px 0 25px 0;
+    float:left;
+    border-radius: 5px;
+    width: 230px;
+    height: 130px;
+    overflow: hidden;
+    background-color: #221f1f;
+    display: inline;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.specialties{
+
+    margin:20px 0px 20px 10px;
+}
+
+/*other experience - mary kay*/
+
+
+#project-marykay {
+    width: 850px;
+    height: 225px;
+    box-shadow:  1px 1px 40px 0 rgba(0, 0, 0, .45);
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    margin: 0px auto 0px 90px;
+    display: block;
+    background: url(images/other_experience/mary_kay.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #221f1f;
+}
+#project-marykay:hover #overlay {
+    opacity: 1;
+}
+#project-marykay:hover{
+    width: 850px;
+    height: 225px;
+}
+#mary-kay {
+    font-family: Helvetica;
+    font-weight: 500;
+    color: rgba(255, 255, 255, .85);
+    font-size: 14px;
+}
+
+
+
+/*accomplishments graduation*/
+#school-graduation{
+    width: 400px;
+    height: 200px;
+    box-shadow:  1px 1px 40px 0 rgba(0, 0, 0, .45);
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    margin: 25px 10px 25px 10px;
+    float:left;
+    display: inline;
+    background: url(images/accomplishments/graduation-cap.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #221f1f;
+    margin-left: 40px;
+}
+
+
+
+#school-graduation:hover #overlay {
+    opacity: 1;
+}
+#school-graduation {
+    font-family: Helvetica;
+    font-weight: 500;
+    color: rgba(255, 255, 255, .85);
+    font-size: 20px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+#deans-list{
+    width: 400px;
+    height: 200px;
+    box-shadow:  1px 1px 40px 0 rgba(0, 0, 0, .45);
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    margin: 25px 10px 25px 10px;
+    float:left;
+    display: inline;
+    background: url(images/accomplishments/scroll2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #221f1f;
+    margin-left: 40px;
+}
+
+#deans-list:hover #overlay {
+    opacity: 1;
+}
+#deans-list {
+    font-family: Helvetica;
+    font-weight: 500;
+    color: rgba(255, 255, 255, .85);
+    font-size: 20px;
+    text-align: center;
+}
+
+.clearfix #book-published{
+    margin-left: 250px;
+    margin-top: 0;
+}
+#book-published{
+    width: 400px;
+    height: 200px;
+    box-shadow:  1px 1px 40px 0 rgba(0, 0, 0, .45);
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    margin: 25px 10px 25px 10px;
+    float:left;
+    display: inline;
+    background: url(images/accomplishments/book_cover_purple.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #221f1f;
+    margin-left: 40px;
+}
+
+#book-published:hover #overlay {
+    opacity: 1;
+}
+#book{
+    font-family: Helvetica;
+    font-weight: 500;
+    color: rgba(255, 255, 255, .85);
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+#technical-skills-inter-bar {
+    width: 40px;
+    height: 20px;
+    box-shadow:  1px 1px 40px 0 rgba(0, 0, 0, .45);
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    float:left;
+    display:inline;
+    border-radius: 5px;
+    background-color: #221f1f;
+}
+
+#technical-skills-inter-fill {
+    width: 60px;
+    height: 20px;
+    box-shadow:  1px 1px 40px 0 rgba(0, 0, 0, .45);
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    float:left;
+    display:inline;
+    border-radius: 5px;
+    background-color: #7b438c;
+}
+
+
+
+#technical-skills-basic-bar {
+    width: 60px;
+    height: 20px;
+    box-shadow:  1px 1px 40px 0 rgba(0, 0, 0, .45);
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    float:left;
+    display:inline;
+    border-radius: 5px;
+    background-color: #221f1f;
+}
+
+#technical-skills-basic-fill {
+    width: 40px;
+    height: 20px;
+    box-shadow:  1px 1px 40px 0 rgba(0, 0, 0, .45);
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    float:left;
+    display:inline;
+    border-radius: 5px;
+    background-color: #7b438c;
+}
+
+
+
+
+#technical-skills-advanced-fill {
+    width: 100px;
+    height: 20px;
+    box-shadow:  1px 1px 40px 0 rgba(0, 0, 0, .45);
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    float:left;
+    display:inline;
+    border-radius: 5px;
+    background-color: #7b438c;
+}
+
+
+
+
+
+.cover-part{
+    text-align: center;
+    background-color: #bd95c3;
+    padding: 0;
+    padding-top: 100px;
+    height: 650px;
+    color:#44154f;
+}
+
+
+.cover-part h1{
+    text-align: center;
+    background-color: #bd95c3;
+    padding: 0;
+    color:#44154f;
+    font-weight: bolder;
+    font-size: 70px;
+}
+.cover-part h3{
+    text-align: center;
+    background-color: #bd95c3;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:#44154f;
+    font-size: 30px;
+    font-weight: bold;
+}
+.cover-part button{
+    padding: 0;
+    margin: 0;
+    height:90px;
+    width:90px;
+    border:none;
+    background-image: url("assets/arrow.png");
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+}
+
+
+.clearfix{
+    clear: both;
+    padding: 20px;
+}
